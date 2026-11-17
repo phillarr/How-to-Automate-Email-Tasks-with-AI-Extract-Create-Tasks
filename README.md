@@ -1,6 +1,6 @@
 # How to Automate Email Tasks with AI: Extract & Create Tasks
 
-A [Make.com](https://www.make.com) scenario that reads your incoming Gmail messages, uses an AI model (Mistral) to pull out the action items, and adds each one as a task in a Notion database.
+A scenario that reads your incoming Gmail messages, uses an AI model (Mistral) to pull out the action items, and adds each one as a task in a Notion database.
 
 ▶️ **Video tutorial:** [watch on YouTube](https://www.youtube.com/watch?v=5LgaE_qQGzI)
 
