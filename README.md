@@ -25,6 +25,8 @@ Gmail (new email) ──► Mistral AI (extract tasks as JSON) ──► Parse J
 4. **Iterator**: handles each task one at a time.
 5. **Create item** (Notion): adds one row per task to your tasks database.
 
+> **The AI can make mistakes.** It can miss an action item, invent one, assign it to the wrong person or get the due date wrong. Check each task against the original email before acting on it.
+
 ## Requirements
 
 - A Make.com account (the free plan is enough to try it)
