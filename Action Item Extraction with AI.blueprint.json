@@ -19,7 +19,7 @@
                 "criteria": "all",
                 "markSeen": false,
                 "filterType": "simpleSearch",
-                "__IMTCONN__": 8384331,
+                "__IMTCONN__": null,
                 "excludeWords": "",
                 "includeWords": "",
                 "hasAttachment": false
@@ -452,7 +452,7 @@
             "module": "mistral-ai:createACompletion",
             "version": 1,
             "parameters": {
-                "__IMTCONN__": 8385882
+                "__IMTCONN__": null
             },
             "filter": null,
             "mapper": {
@@ -655,7 +655,7 @@
             "module": "json:ParseJSON",
             "version": 1,
             "parameters": {
-                "type": 463398
+                "type": ""
             },
             "filter": null,
             "mapper": {
@@ -755,7 +755,7 @@
             "module": "notion:createDataSourceItem",
             "version": 1,
             "parameters": {
-                "__IMTCONN__": 8386656
+                "__IMTCONN__": null
             },
             "mapper": {
                 "fields": {
@@ -772,7 +772,7 @@
                     "%5CJNh": "{{13.due_date}}"
                 },
                 "select": "list",
-                "data_source": "3840c9a2-651d-80bc-acab-000b296ff934"
+                "data_source": "YOUR_NOTION_DATABASE_ID"
             },
             "metadata": {
                 "designer": {
@@ -1033,7 +1033,7 @@
                             ],
                             "rpcSearch": {
                                 "label": "Tasks Tracker",
-                                "value": "3840c9a2-651d-80bc-acab-000b296ff934"
+                                "value": "YOUR_NOTION_DATABASE_ID"
                             }
                         }
                     },
@@ -1043,7 +1043,7 @@
                                 "scoped": "true",
                                 "connection": "notion3"
                             },
-                            "label": "MyNotion"
+                            "label": "My Notion connection"
                         }
                     }
                 },
